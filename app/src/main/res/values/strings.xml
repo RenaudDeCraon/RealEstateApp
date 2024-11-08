@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">RealEstateApp</string>
+
+
+    <string-array name="name_array">
+        <item>Ahmet Topçu</item>
+        <item>Mehmet Kazık</item>
+        <item>Jonas Elibol</item>
+        <item>Christopher Kırkayak</item>
+        <item>Mustafa Kennedy</item>
+
+    </string-array>
+
+    <string-array name="address_array">
+        <item>123 Main St, Springfield, IL</item>
+        <item>456 Elm St, Shelbyville, IL</item>
+        <item>789 Maple Ave, Capital City, IL</item>
+        <item>101 Oak Rd, Ogdenville, IL</item>
+        <item>202 Pine Ln, North Haverbrook, IL</item>
+    </string-array>
+
+    <string-array name="roomcount_array">
+        <item>1+1</item>
+        <item>2+1</item>
+        <item>3+1</item>
+        <item>4+1</item>
+        <item>5+1</item>
+    </string-array>
+
+    <string-array name="price_array">
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1250</item>
+        <item>1500</item>
+    </string-array>
+</resources>

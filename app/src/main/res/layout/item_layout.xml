@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_width="254dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="17dp"
+            android:text="TextView"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/addressTv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.133" />
+
+        <TextView
+            android:id="@+id/addressTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="@+id/roomCountTV"
+            app:layout_constraintTop_toBottomOf="@+id/roomCountTV" />
+
+        <TextView
+            android:id="@+id/roomCountTV"
+            android:layout_width="115dp"
+            android:layout_height="27dp"
+            android:text="TextView"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/nameTv"
+            tools:layout_editor_absoluteY="146dp" />
+
+        <TextView
+            android:id="@+id/priceTV"
+            android:layout_width="84dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="24dp"
+            android:text="TextView"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/addressTv"
+            app:layout_constraintTop_toBottomOf="@+id/addressTv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
