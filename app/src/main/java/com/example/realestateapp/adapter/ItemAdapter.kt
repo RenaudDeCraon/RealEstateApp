@@ -61,6 +61,7 @@ class ItemAdapter(private val data: List<Cell>):RecyclerView.Adapter<ItemAdapter
         holder.addressView.text = cell.Address
         holder.priceView.text = cell.Price
         holder.roomCountView.text = cell.RoomCount
+        holder.bind(cell)
 
 
     }

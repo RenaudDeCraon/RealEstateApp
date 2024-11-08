@@ -15,6 +15,7 @@ class CellDetailActivity : AppCompatActivity() {
         const val CELL_PRICE= "Price"
         const val CELL_ROOMCOUNT="RoomCount"
 
+
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,9 +28,9 @@ class CellDetailActivity : AppCompatActivity() {
         val cellroomcount = intent.getStringExtra(CELL_ROOMCOUNT)
 
         binding.nameTV.text = cellname
-        binding.PriceTV.text = cellprice
+        binding.priceTV.text = cellprice
         binding.addressTV.text = celladdress
-        binding.roomcountTV.text = cellroomcount
+        binding.roomCountTV.text = cellroomcount
 
 
 
